@@ -2,15 +2,21 @@
 <!-- Short empty ISDs -->
 <tt xml:lang="en"
     xmlns="http://www.w3.org/ns/ttml"
-    xmlns:tts="http://www.w3.org/ns/ttml#styling">
+    xmlns:tts="http://www.w3.org/ns/ttml#styling"
+    xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
+    ttp:timeBase="media">
   <head>
+    <styling><style xml:id="s0"/></styling>
+    <layout>
+      <region xml:id="r0" tts:origin="0% 0%" tts:extent="100% 100%"></region>
+    </layout>
   </head>
   <body>
-    <div>
-      <p begin="0s" end="0.15s">abcdefghij</p>
-      <p begin="0.19s" end="1s">ABCDEFGHIJ</p>
-      <p begin="1.04s" end="1.3s">abcdefghij</p>
-      <p begin="1.34s" end="2s">ABCDEFGHIJ</p>
+    <div region="r0">
+      <p begin="00:00:00" end="00:00:00.15" xml:id="p0">abcdefghij</p>
+      <p begin="00:00:00.19" end="00:00:01" xml:id="p1">ABCDEFGHIJ</p>
+      <p begin="00:00:01.04" end="00:00:01.3" xml:id="p2">abcdefghij</p>
+      <p begin="00:00:01.34" end="00:00:02" xml:id="p3">ABCDEFGHIJ</p>
     </div>
   </body>
 </tt>
