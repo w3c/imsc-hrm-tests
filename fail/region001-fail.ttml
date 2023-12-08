@@ -10,7 +10,7 @@
       <style xml:id="s0" tts:backgroundColor="#FF0000"/>
     </styling>
     <layout>
-      <region xml:id="r0" style="s0" tts:origin="0% 0%" tts:extent="100% 100%"></region>
+      <region xml:id="r0" style="s0" tts:origin="0% 0%" tts:extent="100% 100%" tts:showBackround="always"></region>
     </layout>
   </head>
   <body>
